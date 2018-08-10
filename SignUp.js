@@ -16,7 +16,7 @@ export class SignUp extends React.Component {
   }
 }
 
-export default class SignUp extends React.Component {
+export default class customSignUp extends React.Component {
   state = { email: '', password: '', errorMessage: null }
 
 handleSignUp = () => {
