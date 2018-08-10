@@ -13,7 +13,7 @@ export default class Main extends React.Component {
 }
 }
 
-export class Main extends React.Component {
+export class customMain extends React.Component {
   state = { currentUser: null }
 
 render() {

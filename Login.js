@@ -17,7 +17,7 @@ export class Login extends React.Component {
   }
 }
 
-export default class Login extends React.Component {
+export default class customLogin extends React.Component {
   state = { email: '', password: '', errorMessage: null }
 
   handleLogin = () => {
